@@ -1,0 +1,25 @@
+:root{
+    --azulCarvao: #283940;
+    --branco:#ffffff;
+
+}
+@media (max-width:460px) {
+
+    /* ID para tamanhos diferentes de tela */
+    #mobile{
+        display: block;
+    }
+
+    #desktop{
+        display: none;
+    }
+
+    body{
+        background-color: var(--azulCarvao);
+        color: var(--branco);
+    }
+
+    .title-logo-inicial{
+        font-size:60px;
+    }
+}
