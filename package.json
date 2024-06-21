@@ -1,0 +1,10 @@
+{
+    "name": "meu-projeto",
+    "version": "1.0.0",
+    "main": "dinamica-front.js",
+    "type": "module",
+    "scripts": {
+      "start": "node dinamica-front.js"
+    },
+    "dependencies": {}
+  }

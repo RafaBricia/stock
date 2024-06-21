@@ -3,7 +3,7 @@
     --branco:#ffffff;
 
 }
-@media (max-width:460px) {
+@media (max-width:800px) {
 
     /* ID para tamanhos diferentes de tela */
     #mobile{

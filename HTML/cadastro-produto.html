@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Produto</title>
+    <link rel="stylesheet" href="../CSS/syles.css">
+    <link rel="shortcut icon" type="imagex/png" href="../ÍCONES/icone aba branco.svg">
+
+</head>
+
+<body>
+
+    <!-- INÍCIO DA DIV MOBILE -->
+
+    <div id="mobile">
+
+        <!-- INÍCIO DIV BARRA INICIAL -->
+
+        <div id="topo">
+            <a href="../HTML/tela-principal.html"><img src="../ÍCONES/inicio icone.svg" alt="botão de voltar para o início"
+                    height="50px" width="50px">
+                <h3 class="titulo">Stock</h3>
+            </a>
+        </div>
+
+        <!-- FIM DIV BARRA INICIAL -->
+
+        <div class="container-opcoes">
+
+            <div class="opc">
+
+                <div class="pesquisar">
+
+                    <a href="../HTML/tela-buscar-COD.html">
+
+                        <button type="button" class="button-function-pesquisar"><img src="../ÍCONES/pesquisar icone.svg"
+                                width="100px" height="100px"></button>
+
+                    </a>
+
+                    <p class="title-category pesquisar">Pesquisar Produtos</p>
+
+                </div>
+
+
+                <div class="adicionar not-transparent">
+
+                    <a href="../HTML/tela-buscar-COD-ADD.html">
+
+                        <button type="button" class="button-function-adicionar"><img src="../ÍCONES/escanear icone.svg"
+                                width="100px" height="100px"></button>
+
+                    </a>
+
+                    <p class="title-category adicionar">Adicionar Produtos</p>
+
+                </div>
+
+
+                <div class="verificar">
+
+                    <a href="../HTML/tela-categorias.html">
+
+                        <button type="button" class="button-function"><img src="../ÍCONES/estoque icone.svg" height="100px"></button>
+
+                    </a>
+
+                    <p class="title-category verificar">Verificar Estoque</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="botao-add">
+            <div class="botao-add">
+                <img src="../ÍCONES/botao add.svg" alt="" height="300px" width="300px">
+                <input type="file" name="adicionar imagem" id="add-image" accept="image/*" style="position: absolute; width: 300px; height: 300px; opacity: 0; cursor: pointer; ">
+              
+            </div>
+        </div>
+
+        <div class="formulario">
+            <p>Cadastrar +</p>
+
+            <p class="fundo-categorias">
+                <label for="categorias">Categorias</label>
+                <select name="categorias" id="categorias">
+                    <option value="" disabled selected>Escolha a categoria</option>
+                    <option value="Limpeza" id="Limpeza">Higiene e Limpeza</option>
+                    <option value="Mercearia" id="Mercearia">Hortifruti e Mercearia</option>
+                    <option value="Padaria" id="Padaria">Padaria</option>
+                    <option value="Enlatados" id="Enlatados">Enlatados</option>
+                    <option value="Cereais" id="Cereais">Cereais</option>
+                    <option value="adegaBebidas" id="adegaBebidas">Adegas e Bebidas</option>
+                </select>
+            </p>
+
+            <input type="text" id="codigo" placeholder="Código do Produto">
+            <input type="text" id="referencia" placeholder="Nome do Produto">
+            <input type="number" name="Quantidade" id="quantidade" placeholder="Quantidade">
+            <a href="../HTML/confirma-cadastro.html"></a>
+            <button id="bnt-cd" class="cadastrar-produto" type="button">Cadastrar</button>
+            <div id="result"></div>
+
+        </div>
+
+
+        <!-- FIM DA DIV MOBILE -->
+
+
+        <!-- INÍCIO A DIV DESKTOP-->
+
+        <div id="desktop">
+
+            <div class="saudacao">
+                
+                <img src="../ÍCONES/fundo convite-100.jpg" width="100%" height="100%">
+
+            </div>
+
+        </div>
+
+
+        <!-- FIM DA DIV DESKTOP -->
+
+        <script type="module" src="../JS/dinamica-front.js"></script>
+
+</body>
+
+</html>

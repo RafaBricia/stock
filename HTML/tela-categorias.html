@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="">
+    <title>Selecionar Categoria</title>
+    <link rel="stylesheet" href="../CSS/syles.css">
     <link rel="icon" href="">
+    <link rel="shortcut icon" type="imagex/png" href="../ÍCONES/icone aba branco.svg">
+
 </head>
 
 <body>
@@ -17,31 +19,31 @@
 
         <!-- INÍCIO DIV BARRA INICIAL -->
 
-        <div class="barra-inicial">
+        <div id="topo">
 
-            <img src="" alt="" width="" height="">
+            <a href="../HTML/tela-principal.html"><img src="../ÍCONES/voltar icone.svg" alt="botão de voltar para o início" height="50px" width="50px"><h3 class="titulo">Stock</h3></a>
 
-            <h3 class="title-logo-inicial">Stock</h3>
-
-        </div>
+    </div>
 
         <!-- FIM DIV BARRA INICIAL -->
 
 
         <!-- INÍCIO DIV CATEGORIAS -->
 
-        <div class="button-category">
+        <div class="categorias-quadro">
 
             <!-- INÍCIO DOS BOTÕES DE CATEGORIAS-->
 
             <!-- RAFA para WICTOR: mude caso você vá usar ícones prontos do bootstrap  -->
             <!--separar buttons em divs -->
 
+            <div id="todas-categorias">
+
             <div class="adega-bebidas">
 
-                <a href="tela-visualizacao-bebida.html">
+                <a href="../HTML/tela-visualizacao-bebida.html">
                     
-                    <button type="button" class="button-category"><img src="icon.png"
+                    <button type="button" class="button-category"><img src="../ÍCONES/adega icone.svg"
                         alt="" width="100px" height="100px"></button>
 
                 </a>
@@ -53,9 +55,9 @@
 
             <div class="higiene-limpeza">
 
-                <a href="tela-visualizacao-limpeza.html">
+                <a href="../HTML/tela-visualizacao-limpeza.html">
 
-                    <button type="button" class="button-category"><img src="icon.png" alt="" width="100px"
+                    <button type="button" class="button-category"><img src="../ÍCONES/limpeza icone.svg" alt="" width="100px"
                             height="100px"></button>
 
                 </a>
@@ -68,9 +70,9 @@
 
             <div class="cereais">
 
-                <a href="tela-visualizacao-cereais.html">
+                <a href="../HTML/tela-visualizacao-cereais.html">
 
-                    <button type="button" class="button-category "><img src="icon.png" alt="" width="100px"
+                    <button type="button" class="button-category "><img src="../ÍCONES/cereais icone.svg" alt="" width="100px"
                             height="100px"></button>
 
                 </a>
@@ -82,9 +84,9 @@
 
             <div class="hort-mercadoria">
 
-                <a href="tela-visualizacao-mercearia.HTML">
+                <a href="../HTML/tela-visualizacao-mercearia.HTML">
 
-                    <button type="button" class="button-category"><img src="icon.png" alt="" width="100px"
+                    <button type="button" class="button-category"><img src="../ÍCONES/hortifruti icone.svg" alt="" width="100px"
                             height="100px"></button>
 
                 </a>
@@ -96,9 +98,9 @@
 
             <div class="padaria">
 
-                <a href="tela-visualizacao-padaria.html">
+                <a href="../html/tela-visualizacao-padaria.html">
 
-                    <button type="button" class="button-category"><img src="icon.png" alt="" width="100px"
+                    <button type="button" class="button-category"><img src="../ÍCONES/padaria icone.svg" alt="" width="100px"
                             height="100px"></button>
 
                 </a>
@@ -110,9 +112,9 @@
 
             <div class="enlatados">
 
-                <a href="tela-visualizacao-enlatados.html">
+                <a href="../html/tela-visualizacao-enlatados.html">
 
-                    <button type="button" class="button-category"><img src="icon.png" alt="" width="100px"
+                    <button type="button" class="button-category"><img src="../ÍCONES/enlatados icone.svg" alt="" width="100px"
                             height="100px"></button>
 
                 </a>
@@ -120,7 +122,7 @@
                 <p class="title-category enlatados">Enlatados</p>
 
             </div>
-
+        </div>
 
             <!-- FIM DOS BOTÕES DE CATEGORIAS-->
 
@@ -132,7 +134,26 @@
     </div>
 
     <!-- FIM DIV MOBILE -->
+     
 
+    <!-- INÍCIO A DIV DESKTOP-->
+
+    <div id="desktop">
+
+
+        <div class="saudacao">
+
+            <img src="../ÍCONES/fundo convite-100.jpg" width="100%" height="100%">
+
+        </div>
+
+    </div>
+
+
+    <!-- FIM DA DIV DESKTOP -->
+
+    <script type="module" src="../JS/dinamica-front.js"></script>
+    
 </body>
 
 </html>
