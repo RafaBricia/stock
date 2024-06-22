@@ -94,7 +94,6 @@
 
 
 document.addEventListener("DOMContentLoaded", () => {
-    alert('carregou')
     const produtoForm = document.getElementById("produtoForm");
     const listaProdutos = document.getElementById("listaProdutos");
 

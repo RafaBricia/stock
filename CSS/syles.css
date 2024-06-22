@@ -459,6 +459,29 @@
     color: inherit;
 }
 
+.botao-continuar-CAD{
+    background-color: var(--azul-principal);
+    color: var(--branco);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20vh;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#CAD{
+    color: var(--branco);
+    text-decoration: none;
+}
+
 
 .botao-add{
     background-color: var(--cinza-claro);
@@ -983,6 +1006,29 @@
     justify-content: center;
 }
 
+.botao-continuar-CAD{
+    background-color: var(--azul-principal);
+    color: var(--branco);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20vh;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#CAD{
+    color: var(--branco);
+    text-decoration: none;
+}
+
 .botao-continuar{
     background-color: var(--azul-principal);
     color: var(--branco);
@@ -1008,6 +1054,28 @@
     color: inherit;
 }
 
+.botao-continuar-CAD{
+    background-color: var(--azul-principal);
+    color: var(--branco);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20vh;
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#CAD{
+    color: var(--branco);
+    text-decoration: none;
+}
 
 .botao-add{
     background-color: var(--cinza-claro);
