@@ -21,9 +21,12 @@
 
         <div id="topo">
 
-            <a href="../HTML/tela-visualizacao-bebida.html"><img src="../ÍCONES/voltar icone.svg" alt="botão de voltar para o início" height="50px" width="50px"><h3 class="titulo">Stock</h3></a>
+            <a href="../HTML/tela-visualizacao-bebida.html"><img src="../ÍCONES/voltar icone.svg"
+                    alt="botão de voltar para o início" height="50px" width="50px">
+                <h3 class="titulo">Stock</h3>
+            </a>
 
-    </div>
+        </div>
 
         <!-- FIM DIV BARRA INICIAL -->
 
@@ -31,96 +34,96 @@
         <div class="categorias">
 
             <div id="categoria" class="button-category">
-    
+
                 <!-- INÍCIO DOS BOTÕES DE CATEGORIAS-->
-    
-    
-                <div id="opcoes" class="adega-bebidas not-transparent">
-    
+
+
+                <div id="opcoes" class="adega-bebidas">
+
                     <a href="../HTML/tela-visualizacao-bebida.html">
-                        
-                        <button type="button" class="button-category"><img src="./ÍCONES/adega icone.svg"
-                            alt="" width="100px" height="100px"></button>
-    
+
+                        <button type="button" class="button-category"><img src="../ÍCONES/adega icone.svg" alt=""
+                                width="100px" height="100px"></button>
+
                     </a>
-                    
+
                     <p class="title-category adega-bebidas">Adega e Bebidas</p>
-    
+
                 </div>
-    
-    
+
+
                 <div id="opcoes" class="higiene-limpeza">
-    
-                    <a href="tela-visualizacao-limpeza.html">
-    
-                        <button type="button" class="button-category"><img src="./ÍCONES/limpeza icone.svg" alt="" width="100px"
-                                height="100px"></button>
-    
+
+                    <a href="../HTML/tela-visualizacao-limpeza.html">
+
+                        <button type="button" class="button-category"><img src="../ÍCONES/limpeza icone.svg" alt=""
+                                width="100px" height="100px"></button>
+
                     </a>
-    
+
                     <p class="title-category higiene-limpeza">Higiene e Limpeza</p>
-    
-    
+
+
                 </div>
-    
-    
+
+
                 <div id="opcoes" class="cereais">
-    
-                    <a href="tela-visualizacao-cereais.html">
-    
-                        <button type="button" class="button-category "><img src="./ÍCONES/cereais icone.svg" alt="" width="100px"
-                                height="100px"></button>
-    
+
+                    <a href="../HTML/tela-visualizacao-cereais.html">
+
+                        <button type="button" class="button-category "><img src="../ÍCONES/cereais icone.svg" alt=""
+                                width="100px" height="100px"></button>
+
                     </a>
-    
+
                     <p class="title-category cereais">Cereais</p>
-    
+
                 </div>
-    
-    
+
+
                 <div id="opcoes" class="hort-mercadoria">
-    
-                    <a href="tela-visualizacao-mercearia.HTML">
-    
-                        <button type="button" class="button-category"><img src="./ÍCONES/hortifruti icone.svg" alt="" width="100px"
-                                height="100px"></button>
-    
+
+                    <a href="../HTML/tela-visualizacao-mercearia.HTML">
+
+                        <button type="button" class="button-category"><img src="../ÍCONES/hortifruti icone.svg" alt=""
+                                width="100px" height="100px"></button>
+
                     </a>
-    
+
                     <p class="title-category hort-mercadoria">Hortifruti e Mercadoria</p>
-    
+
                 </div>
-    
-    
+
+
                 <div id="opcoes" class="padaria">
-    
-                    <a href="tela-visualizacao-padaria.html">
-    
-                        <button type="button" class="button-category"><img src="./ÍCONES/padaria icone.svg" alt="" width="100px"
-                                height="100px"></button>
-    
+
+                    <a href="../HTML/tela-visualizacao-padaria.html">
+
+                        <button type="button" class="button-category"><img src="../ÍCONES/padaria icone.svg" alt=""
+                                width="100px" height="100px"></button>
+
                     </a>
-    
-    
+
+
                     <p class="title-category padaria">Padaria</p>
-    
+
                 </div>
-    
+
                 <div id="opcoes" class="enlatados">
-    
-                    <a href="tela-visualizacao-enlatados.html">
-    
-                        <button type="button" class="button-category"><img src="./ÍCONES/enlatados icone.svg" alt="" width="100px"
-                                height="100px"></button>
-    
+
+                    <a href="../HTML/tela-visualizacao-enlatados.html">
+
+                        <button type="button" class="button-category"><img src="../ÍCONES/enlatados icone.svg" alt=""
+                                width="100px" height="100px"></button>
+
                     </a>
-    
+
                     <p class="title-category enlatados">Enlatados</p>
-    
+
                 </div>
             </div>
-    
-    
+
+
             <!-- FIM DOS BOTÕES DE CATEGORIAS-->
 
         </div>
@@ -130,31 +133,34 @@
 
         <div class="lista-produtos">
 
-    
 
+            <div class="produto-detalhado" style="display: none;" id="produtoDetalhado">
 
-            <div class="produto-detalhado">
-
-                <img src="https://giassi.vtexassets.com/arquivos/ids/1166950/Agua-Mineral-Natural-com-Gas-Crystal-Garrafa-500ml.png?v=638510551761200000"
-                alt="foto de produto" class="foto-ampliada" height="80px">
+                <img src="" class="foto-ampliada" height="80px" id="fotoAmpliada">
 
                 <div id="dados-do-produto">
                     <ul>
-                        <li class="codigo">
-                            <strong>Código de Barras:</strong> 7894900531008
+                        <li class="codigo" id="codigoVisualizacao">
+                            <strong>Código de Barras:</strong>
+                            
+
                         </li>
-                        <li class="referencia">
-                            <strong>Referência:</strong> BEBIDAS - AG C GAS CRYSTAL
+                        <li class="referencia" id="referenciaVisualizacao">
+                            <strong>Referência:</strong>
+
                         </li>
-                        <li class="disponivel not-transparent">
-                            <strong>Disponível:</strong> 8 unidades
+                        <li class="disponivel not-transparent" id="quantidadeVisualizacao">
+                            <strong>Disponível:</strong>
+
                         </li>
                     </ul>
                 </div>
 
+
                 <a href="tela- option-remove.html">
 
-                    <button type="button" class="button-lixeira"><img src="./ÍCONES/lixeira azul icone.svg" alt="" height="100px" width="100px"></button>
+                    <button type="button" class="button-lixeira" onclick="removerProdutoDoLocalStorage(index)"><img src="../ÍCONES/lixeira azul icone.svg" alt=""
+                            height="100px" width="100px"></button>
 
                 </a>
 
@@ -168,6 +174,25 @@
     </div>
 
     <!-- FIM DIV MOBILE -->
+
+
+    <!-- INÍCIO A DIV DESKTOP-->
+
+    <div id="desktop">
+
+
+        <div class="saudacao">
+
+            <img src="../ÍCONES/background convite.jpg" width="100%" height="100%">
+
+        </div>
+
+    </div>
+
+
+    <!-- FIM DA DIV DESKTOP -->
+
+    <script type="module" src="../JS/dinamica-front.js"></script>
 
 </body>
 

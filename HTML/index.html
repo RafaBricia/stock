@@ -1,25 +1,43 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela inicial</title>
-    <link rel="stylesheet" href="./CSS/Style-inicial.css">
+    <link rel="stylesheet" href="../CSS/syles.css">
     <link rel="icon" href="" type="">
+    <link rel="shortcut icon" type="imagex/png" href="../ÍCONES/icone aba branco.svg">
+
 </head>
 <body>
-
+    
+    
     <!-- INÍCIO DA DIV MOBILE -->
 
-    <div id="mobile">
+    <div class="mobile">
 
-        <div class="logo-parcial">
 
-            <img src="" alt="logo-parcial-Stock" width="" height="">
+        <div class="splashscreen"  >
+
+            <img src="../SPLASHSCREEN/splash.gif" alt="Splashscreen do App Stock" width="" height="">
 
         </div>
 
-    </div>
+      
+
+        <script>
+            
+            const gifDuration = 6100;
+    
+            function encerraSplash() {
+                document.querySelector('.splashscreen').style.display = 'none';
+                window.location.href = '../HTML/tela-principal.html';
+            }
+
+    
+            setTimeout(encerraSplash, gifDuration);
+        </script>
+
 
     <!-- FIM DA DIV MOBILE -->
 
@@ -29,11 +47,19 @@
 
     <div id="desktop">
 
+        <div class="saudacao">
+
+            <img src="../ÍCONES/background convite.jpg" width="100%" height="100%">
+
+        </div>
+
     </div>
-    
+
+
     <!-- FIM DA DIV DESKTOP -->
 
-    <script type="text/javascript" src=""></script>
 
+    <script type="module" src="../JS/dinamica-front.js"></script>
+    
 </body>
 </html>
